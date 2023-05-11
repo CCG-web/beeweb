@@ -1,0 +1,40 @@
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 567px) {
+    .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0;
+      }
+      
+      .card-content {
+        padding: 10px;
+        flex-grow: 1;
+      }
+      
+      .card h3 {
+        margin: 0;
+      }
+      
+      @media (min-width: 576px) {
+        .card {
+          flex-direction: row;
+          max-width: 600px;
+        }
+        
+        .card img {
+          width: 40%;
+          border-radius: 10px 0 0 10px;
+        }
+        
+        .card-content {
+          padding: 20px;
+          flex-grow: 0;
+          width: 60%;
+        }
+      }
+}

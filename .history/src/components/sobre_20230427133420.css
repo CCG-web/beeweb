@@ -1,0 +1,16 @@
+.ContainerSobre{
+    width: 100%;
+    height: 890px;
+    background-color:#FFC668;
+}
+
+
+.itens >  h1{
+    color:  white;
+   font-size: 64px;
+}
+
+.itens > p{
+   
+    color: white;
+}

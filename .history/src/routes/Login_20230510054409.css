@@ -1,0 +1,106 @@
+.row{
+    background-color: #FFAD26;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 800px;
+}
+
+  .colOne{
+    width: 50%;
+ 
+    
+  }
+  .colTwo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f4f4;
+    width: 50%;
+    height: 800px;
+  }
+ 
+
+ 
+  
+  
+  .login {
+    color: #FFAD26;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .email,
+  .password {
+    display: block;
+    width: 352px;
+    height: 72px;
+    
+    
+    font-size: 24px;
+    border: 1px solid #E0D2D2;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .submit {
+    display: block;
+    width: 352px;
+    margin-top: 20px;
+    height: 56px;
+    margin-bottom: 20px;
+    background-color: #FFAD26;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+  }
+  label{
+    margin-right: 25%;
+    margin-top: 10%;
+  }
+  .cadastre{
+    color: #FFAD26;
+    margin-right: 25%;
+  }
+  .forgot {
+    color: #FFAD26;
+    
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    .col {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .email,
+    .password,
+    .submit {
+      width: 100%;
+      height: 50px;
+      font-size: 18px;
+    }
+  
+    .login {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+  
+    .forgot {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  }
+  

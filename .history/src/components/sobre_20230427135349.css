@@ -1,0 +1,28 @@
+.ContainerSobre{
+    width: 100%;
+    height: 890px;
+    background-color:#FFC668;
+    
+    
+}
+
+.itens{
+display: flex;
+text-align: center;
+    
+}
+
+.itens >  h1{
+   
+    color:  white;
+   font-size: 64px;
+}
+
+.itens > p{
+    text-align: center;
+   font-size: 18px;
+   font-weight: bold;
+    color: white;
+    padding-left: 20px;
+    padding-right:50px ;
+}

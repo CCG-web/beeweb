@@ -1,0 +1,22 @@
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 567px) {
+    .cardContainer {
+        display: block;
+        justify-content: center;
+        margin-left: auto;
+        padding: auto;
+    }
+   
+    .card {
+        width: 80%;
+       
+    }
+    img{
+        width: 50px;
+    }
+}

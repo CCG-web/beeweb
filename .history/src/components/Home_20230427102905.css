@@ -1,0 +1,27 @@
+section{
+    width: 100%;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 96px;
+    font-style: mixed;
+    color: #4F4F4F;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-style:normal;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+button{
+    background-color:#FFAD26;
+    width: 280px;
+    height: 86px;
+    color: #FFFF;
+}

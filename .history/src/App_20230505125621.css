@@ -1,0 +1,62 @@
+.uso{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+
+.imgUso{
+    margin: 40px;
+    width: 321px;
+    height: 122px;
+}
+.cardContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 567px) {
+    .cardContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+   
+    .card {
+        width: 300px;
+        height: 400px;
+       
+       
+    }
+   
+}
+
+@media screen and (max-width: 430px) {
+
+    
+.imgUso{
+    margin: 40px;
+    width: 120.5px;
+    height: 61px;
+}
+
+
+    .card {
+        width: 250px;
+        height: 400px;
+       
+       
+    }
+
+
+}
+
+
+@media screen and (max-width: 300px) {
+    .card {
+    margin-left: 5%;
+    }
+}

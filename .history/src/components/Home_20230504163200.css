@@ -1,0 +1,82 @@
+section {
+    width: 100%;
+    height: 50vh;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 96px;
+    font-style: mixed;
+    color: #4F4F4F;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+.btnProjeto {
+    cursor: pointer;
+    margin: 10px;
+    font-size: 24px;
+    background-color: #FFAD26;
+    width: 280px;
+    height: 86px;
+    color: #FFFF;
+    border: none;
+    border-radius: 71px;
+    transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out; 
+  }
+  
+  .btnProjeto:hover {
+    background-color: #E76F00; 
+    transform: scale(1.05); 
+  }
+  
+  .btnProjeto:active {
+    background-color: #FFC940; 
+    transform: scale(0.95); 
+  }
+  
+
+
+@media screen and (max-width: 1000px) {
+
+    section {
+        margin-top: 300px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+   
+
+    .btnProjeto {
+        width: 140px;
+        height: 43px;
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 10px;
+    }
+
+    .btnProjeto {
+        width: 90px;
+        height: 41.5px;
+    }
+
+}

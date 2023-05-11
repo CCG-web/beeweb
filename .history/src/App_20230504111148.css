@@ -1,0 +1,15 @@
+.cardContainer{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 580px) {
+    .cardContainer{
+    display: block;
+    justify-content: center;
+    }
+    .card{
+        width: 250px;
+        height: 450px;
+        margin: auto;
+    }
+}

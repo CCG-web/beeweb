@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    
+    margin: 0;
+    padding: 0;
+  }
+  
+  .containerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: white;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+   
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 60px;
+    background-color: #FFAD26;
+    color: white;
+  }
+  
+  input[type="text"]::placeholder,
+  textarea::placeholder {
+    color: white;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .contact-info li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info li i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #FFAD26;
+  }
+  
+  button[type="submit"] {
+    background-color: white;
+    color: #FFAD26;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #FFAD26;
+    border-radius: 60px;
+    cursor: pointer;
+    width: 168px;
+    height: 56px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #FFAD26;
+    color: white;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .form {
+      width: 100%;
+    }
+  }
+  
