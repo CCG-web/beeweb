@@ -6,7 +6,7 @@ import './index.css';
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
 import App from "./App"
 import Login from "./routes/Login"
-import Reset from './routes/reset';
+import reset from './routes/reset';
 const router = createBrowserRouter([
   {
 path: "/",
@@ -18,7 +18,7 @@ element:<App/>,
 },{
 
   path: "reset",
-  element: <Reset/>
+  element: <reset/>
 },
 
 ])

@@ -1,6 +1,3 @@
-body{
-  background-color: #f8f4f4;
-}
 .row {
   background-color: #FFAD26;
   width: 100%;
@@ -165,8 +162,8 @@ label {
    
   }
   .backLogin{
-   margin: 0;
     margin-top: 10px;
+    margin: 0;
   }
   .center-image {
     margin: 0;

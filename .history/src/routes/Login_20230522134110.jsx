@@ -12,11 +12,11 @@ const Login = () => {
         <div className='Formcontainer'>
         <h1 className='login'>login</h1>
         <form>
-          <input type="email" name="email" placeholder="E-mail" className='email'  />
+          <input type="email" name="email" placeholder="E-mail" className='email' />
           <input type="password" name="password" placeholder="Senha" className='password' />
           <button type="submit" className='submit'>Entrar</button>
         </form>
-        <Link className='forgot' to="/reset">Esqueceu a senha?</Link>
+        <Link className='forgot' href="/">Esqueceu a senha?</Link>
         <label >Não tem conta?</label>
         <a className='cadastre' href="/">Cadastre-se?</a>
       </div>
