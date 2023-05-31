@@ -15,7 +15,7 @@ const Login = () => {
       <div className="col colTwo">
         <div className="Formcontainer">
           <h1 className="login">login</h1>
-          <form>
+          <form onSubmit={(e) => e.preventDefault()}>
             <input
               type="email"
               name="email"
